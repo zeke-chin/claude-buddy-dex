@@ -79,3 +79,9 @@ http://localhost:3456
 - `P4` 再把每种完整外观的 `shiny / 非 shiny` 都补齐
 
 所以通常 `P4` 满了，就说明这个 dex 维度已经完整了。
+
+
+
+## LINUX DO
+
+本项目支持 [LINUX DO](https://linux.do) 社区
