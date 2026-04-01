@@ -2,7 +2,7 @@
 
 独立拆出来的 Rust buddy 撞库和 Web 浏览项目。
 
-![image-20260401214611892](/Users/zeke/workspace/github_work/claude-buddy-dex/assets/image-20260401214611892.png)
+![image-20260401214611892](assets/image-20260401214611892.png)
 
 ## 原理
 
@@ -15,7 +15,7 @@
 
 所以同一个 `userId` 会稳定得到同一只 buddy。
 
-当前 Rust 代码实现的是 Node 路径，对应 [src/main.rs](/Users/zeke/workspace/github_work/claude-buddy-dex/src/main.rs) 里的 `hash_string()` FNV-1a 逻辑。
+当前 Rust 代码实现的是 Node 路径，对应 `src/main.rs` 里的 `hash_string()` FNV-1a 逻辑。
 
 ## 状态
 
@@ -28,7 +28,7 @@
 
 ### 1. 跑库
 
-不是必须。仓库里已经带了一个可直接用的精简版 [buddies.db](/Users/zeke/workspace/github_work/claude-buddy-dex/buddies.db)。
+不是必须。仓库里已经带了一个可直接用的精简版 `buddies.db`。
 
 如果你想继续撞库：
 
