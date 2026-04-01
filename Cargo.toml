@@ -1,0 +1,10 @@
+[package]
+name = "buddy_bruteforce"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rusqlite = { version = "0.31", features = ["bundled"] }
+rand = "0.8"
+rayon = "1.10"
+indicatif = "0.17"
